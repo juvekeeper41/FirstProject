@@ -6,4 +6,11 @@
 //  Copyright © 2017 Osborne, Jacob. All rights reserved.
 //
 
-#include <stdio.h>
+#include "FirstController.h"
+
+int main()
+{
+    FirstController * app = new FirstController;
+    app->start();
+    return 0;
+}

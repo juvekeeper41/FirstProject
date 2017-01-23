@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CC4AD211E365FD600C7B29E /* FirstRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4AD201E365FD600C7B29E /* FirstRunner.cpp */; };
+		1CC4AD371E36673700C7B29E /* FirstRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4AD361E36673700C7B29E /* FirstRunner.cpp */; };
+		1CC4AD391E36674B00C7B29E /* FirstController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4AD381E36674B00C7B29E /* FirstController.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		1CC4AD161E365A5300C7B29E /* FirstProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstProject; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CC4AD201E365FD600C7B29E /* FirstRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstRunner.cpp; path = FirstController/FirstRunner.cpp; sourceTree = "<group>"; };
+		1CC4AD361E36673700C7B29E /* FirstRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstRunner.cpp; path = FirstProject/FirstController/FirstRunner.cpp; sourceTree = "<group>"; };
+		1CC4AD381E36674B00C7B29E /* FirstController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstController.cpp; path = FirstProject/FirstController/FirstController.cpp; sourceTree = "<group>"; };
+		1CC4AD3A1E36675E00C7B29E /* FirstController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirstController.h; path = FirstProject/FirstController/FirstController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		1CC4AD0D1E365A5200C7B29E = {
 			isa = PBXGroup;
 			children = (
-				1CC4AD241E36603900C7B29E /* Controller */,
+				1CC4AD2B1E3664BB00C7B29E /* FirstProject */,
 				1CC4AD171E365A5300C7B29E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +57,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CC4AD241E36603900C7B29E /* Controller */ = {
+		1CC4AD2B1E3664BB00C7B29E /* FirstProject */ = {
 			isa = PBXGroup;
 			children = (
-				1CC4AD201E365FD600C7B29E /* FirstRunner.cpp */,
+				1CC4AD361E36673700C7B29E /* FirstRunner.cpp */,
+				1CC4AD381E36674B00C7B29E /* FirstController.cpp */,
+				1CC4AD3A1E36675E00C7B29E /* FirstController.h */,
 			);
-			name = Controller;
+			name = FirstProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC4AD211E365FD600C7B29E /* FirstRunner.cpp in Sources */,
+				1CC4AD391E36674B00C7B29E /* FirstController.cpp in Sources */,
+				1CC4AD371E36673700C7B29E /* FirstRunner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
